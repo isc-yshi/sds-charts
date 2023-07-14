@@ -1,5 +1,22 @@
 apiVersion: v1
 entries:
+  python-data-busybox:
+  - annotations:
+      intersystems/sds-category: sample
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: Python Data Busybox
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-07-14T14:06:12.1867454-04:00"
+    description: Sample for developers. Shows how to package a python application
+      as a smart data service that can connect to InterSystems IRIS using JDBC.
+    digest: 7fe1efe696a2993abf27db812f823e73c24268024c664114f393ca9bb89ad75b
+    icon: https://intersystems.github.io/sds-repo-samples-unreleased/sample_python_busybox/icon.png
+    name: python-data-busybox
+    type: application
+    urls:
+    - https://isc-yshi.github.io/sds-charts/python-data-busybox-0.1.0.tgz
+    version: 0.1.0
   sds-nginx-svc-example:
   - annotations:
       intersystems/sds-category: custom
@@ -7,7 +24,7 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-13T10:56:23.9262981-04:00"
+    created: "2023-07-14T14:06:12.1867454-04:00"
     description: A Helm chart for Kubernetes
     digest: e68ac1f63b157fbd370fb493969153d42aca2cdd4a5af451df26100f71eb786b
     name: sds-nginx-svc-example
@@ -15,4 +32,4 @@ entries:
     urls:
     - https://isc-yshi.github.io/sds-charts/sds-nginx-svc-example-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-13T10:56:23.9257168-04:00"
+generated: "2023-07-14T14:06:12.1861811-04:00"
