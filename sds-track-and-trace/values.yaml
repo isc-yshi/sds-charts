@@ -10,7 +10,7 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
-imagePullSecrets: []
+imagePullSecrets: ["eyJhdXRocyI6eyJkb2NrZXIuaXNjaW50ZXJuYWwuY29tIjp7InVzZXJuYW1lIjoieXNoaSIsInBhc3N3b3JkIjoid21xaEN5enBsUHg2eUE4Rng5emJxY0UzVUl6YjB3N3ZiRDdpYzdpZVl6WWIiLCJhdXRoIjoiZVhOb2FUcDNiWEZvUTNsNmNHeFFlRFo1UVRoR2VEbDZZbkZqUlROVlNYcGlNSGMzZG1KRU4ybGpOMmxsV1hwWllnPT0ifX19"]
 nameOverride: ""
 fullnameOverride: ""
 
