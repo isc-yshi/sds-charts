@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: Python Data Busybox
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-07-17T11:08:45.6759745-04:00"
+    created: "2023-07-17T11:10:41.0973974-04:00"
     description: Sample for developers. Shows how to package a python application
       as a smart data service that can connect to InterSystems IRIS using JDBC.
     digest: 7fe1efe696a2993abf27db812f823e73c24268024c664114f393ca9bb89ad75b
@@ -24,7 +24,7 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-17T11:08:45.6766072-04:00"
+    created: "2023-07-17T11:10:41.0979278-04:00"
     description: A Helm chart for Kubernetes
     digest: e68ac1f63b157fbd370fb493969153d42aca2cdd4a5af451df26100f71eb786b
     name: sds-nginx-svc-example
@@ -39,12 +39,12 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-17T11:08:45.6771861-04:00"
+    created: "2023-07-17T11:10:41.0979278-04:00"
     description: A Helm chart for Tracking Service
-    digest: c1abb3795a73c60083273b5a04c9b720f9305025f0fdb7f134ccaaca63cd78af
+    digest: 40ed3a090339f24e69f576e5773ca35835789fc8963d4f3289a2f4feadbb6bf8
     name: sds-tracking-service
     type: application
     urls:
     - https://isc-yshi.github.io/sds-charts/sds-tracking-service-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-17T11:08:45.6742859-04:00"
+generated: "2023-07-17T11:10:41.0963311-04:00"
