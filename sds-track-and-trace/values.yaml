@@ -5,12 +5,12 @@
 replicaCount: 1
 
 image:
-  registry: docker.iscinternal.com/sc-docker/sc-cloud-service
-  repository: sds-p44-tracking
+  registry: docker.iscinternal.com/sc-docker
+  repository: sc-cloud-service/sds-p44-tracking
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
-imagePullSecrets: [{ name: mysecret}]
+imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
