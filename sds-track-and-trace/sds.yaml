@@ -1,1 +1,6 @@
 apiVersion: v2
+secrets:
+- field: requiredSecrets.intersystemsContainerRegistrySecret
+  type: image-pull-secret
+  subType: docker.iscinternal.com
+  reason: These are the credentials to authenticate with docker.iscinternal.com
