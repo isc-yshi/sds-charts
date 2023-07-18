@@ -3,8 +3,6 @@ image:
   registry: docker.iscinternal.com/sc-docker/sc-cloud-service
   repository: sds-p44-tracking
 
-imagePullSecrets: []
-
 requiredSecrets:
   p44ImagePullSecret: ""
 

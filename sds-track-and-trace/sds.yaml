@@ -3,4 +3,15 @@ secrets:
 - field: requiredSecrets.p44ImagePullSecret
   type: image-pull-secret
   subType: docker.iscinternal.com
-  reason: These are the credentials to authenticate with containers.intersystems.com
+  reason: These are the credentials to authenticate with docker.iscinternal.com
+sections:
+- label: IRIS Login Information 
+  fields:
+  - field: irisUserName
+    type: string 
+    label: IRIS UserName 
+    help: Username of the service to connect to
+  - field: irisPassword 
+    type: password
+    label: IRIS Password 
+    help: Password of the service to connect to 
