@@ -18,8 +18,3 @@ spec:
       - name: {{ .Values.requiredSecrets.p44ImagePullSecret }}
       {{- end }}
 
-        env:
-        - name: IRIS_USERNAME
-          value: {{ .Values.irisUserName}}
-        - name: IRIS_PASSWORD
-          value: {{ .Values.irisPassword }}
