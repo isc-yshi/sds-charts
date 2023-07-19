@@ -1,6 +1,6 @@
 apiVersion: v2
-name: sds-tracking-service
-description: A Helm chart for sds-tracking-service
+name: sds-tracking-service-new
+description: A Helm chart for sds-tracking-service-new
 
 # A chart can be either an 'application' or a 'library' chart.
 #
@@ -24,6 +24,6 @@ version: 0.1.0
 appVersion: "1.16.0"
 
 annotations:
-  intersystems/sds-title: SDS Tracking Service
+  intersystems/sds-title: SDS Tracking Service New
   intersystems/sds-organization: InterSystems Corporation
   intersystems/sds-category: custom
