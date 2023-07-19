@@ -7,7 +7,7 @@ imagePullSecrets: []
 
 requiredSecrets:
   intersystemsContainerRegistrySecret: ""
-  p44ImagePullSecret: ""
+  p44ImagePullSecret: "p44-image-pull-secret"
 
 irisUserName: ""
 irisPassword: "" 
