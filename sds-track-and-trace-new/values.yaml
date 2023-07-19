@@ -8,7 +8,7 @@ image:
   repository: docker.iscinternal.com/sc-docker/sc-cloud-service/sds-p44-tracking
   tag: "latest"
 
-imagePullSecrets: [{ name: "p44-image-pull-secret" }]
+imagePullSecrets: [{ name: "p44-image-pull-secret-new" }]
 nameOverride: ""
 fullnameOverride: ""
 
