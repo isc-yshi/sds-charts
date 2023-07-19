@@ -1,0 +1,6 @@
+apiVersion: v1
+secrets:
+- field: requiredSecrets.p44ImagePullSecret
+  type: image-pull-secret
+  subType: containers.intersystems.com
+  reason: These are the credentials to authenticate with containers.intersystems.com
