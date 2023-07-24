@@ -27,6 +27,10 @@ spec:
       serviceAccountName: {{ include "helm.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      hostAliases:
+        - ip: "host-gateway"
+          hostnames:
+            - "host.docker.internal"
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
