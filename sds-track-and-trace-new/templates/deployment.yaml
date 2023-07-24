@@ -28,7 +28,7 @@ spec:
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       hostAliases:
-        - ip: "host-gateway"
+        - ip: "192.168.1.164"
           hostnames:
             - "host.docker.internal"
       containers:
