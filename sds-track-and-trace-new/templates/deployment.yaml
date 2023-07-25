@@ -27,10 +27,6 @@ spec:
       serviceAccountName: {{ include "helm.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
-      hostAliases:
-        - ip: "192.168.1.164"
-          hostnames:
-            - "host.docker.internal"
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
@@ -39,7 +35,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: {{ .Values.service.port }}
+              containerPort: 5000
               protocol: TCP
           livenessProbe:
             httpGet:
