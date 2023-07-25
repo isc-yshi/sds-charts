@@ -1,14 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "helm.fullname" . }}
-  labels:
-    {{- include "helm.labels" . | nindent 4 }}
+  name: trackingservice
+  namespace: {{ .Release.Name }}
+  annotations:
+    sds/load-ports-as-separate-services: "true"
 spec:
-  type: {{ .Values.service.type }}
-  ports:
-    - port: {{ .Values.service.port }}
-      targetPort: {{ .Values.service.port }}
-      protocol: TCP
   selector:
     {{- include "helm.selectorLabels" . | nindent 4 }}
+  ports:
+    - name: server
+      port: 10000
+      targetPort: 5000
+  type: LoadBalancer
