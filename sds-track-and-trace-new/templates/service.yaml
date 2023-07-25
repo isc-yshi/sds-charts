@@ -1,15 +1,16 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: trackingservice
+  name: tracking-external-service
   namespace: {{ .Release.Name }}
   annotations:
     sds/load-ports-as-separate-services: "true"
 spec:
+  type: NodePort
   selector:
     {{- include "helm.selectorLabels" . | nindent 4 }}
   ports:
-    - name: server
+    - protocol: TCP
       port: 10000
       targetPort: 5000
-  type: LoadBalancer
+      nodePort: 30008
