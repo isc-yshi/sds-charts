@@ -3,14 +3,11 @@ kind: Service
 metadata:
   name: tracking-external-service
   namespace: {{ .Release.Name }}
-  annotations:
-    sds/load-ports-as-separate-services: "true"
 spec:
   type: NodePort
   selector:
     {{- include "helm.selectorLabels" . | nindent 4 }}
   ports:
-    - protocol: TCP
-      port: 10000
+    - port: 5000
       targetPort: 5000
-      nodePort: 30008
+      nodePort: 30007
