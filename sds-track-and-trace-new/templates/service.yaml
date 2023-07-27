@@ -4,10 +4,8 @@ metadata:
   name: tracking-external-service
   namespace: {{ .Release.Name }}
 spec:
-  type: NodePort
   selector:
     {{- include "helm.selectorLabels" . | nindent 4 }}
   ports:
     - port: 5000
       targetPort: 5000
-      nodePort: 30007
