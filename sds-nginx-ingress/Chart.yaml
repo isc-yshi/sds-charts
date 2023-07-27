@@ -24,6 +24,6 @@ version: 0.18.0
 appVersion: "3.2.0"
 
 annotations:
-  intersystems/sds-title: SDS Tracking Service New
+  intersystems/sds-title: SDS NGINX Ingress Controller
   intersystems/sds-organization: InterSystems Corporation
   intersystems/sds-category: custom
