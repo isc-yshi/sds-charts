@@ -7,9 +7,9 @@ entries:
       intersystems/sds-title: SDS NGINX Ingress Controller
     apiVersion: v2
     appVersion: 3.2.0
-    created: "2023-07-27T16:44:41.5786529-04:00"
+    created: "2023-07-28T14:56:05.5526759-04:00"
     description: NGINX Ingress Controller
-    digest: d0ecef503624c571279b06ebf60115fff88078731b9a90bb9dfbec6a786a5de5
+    digest: 75f9193d2e52e89833b011116e6dcb148cebf82af66b68c7df8a023eef47801a
     name: nginx-ingress
     type: application
     urls:
@@ -22,7 +22,7 @@ entries:
       intersystems/sds-title: Python Data Busybox
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-07-27T16:44:41.5793133-04:00"
+    created: "2023-07-28T14:56:05.5537251-04:00"
     description: Sample for developers. Shows how to package a python application
       as a smart data service that can connect to InterSystems IRIS using JDBC.
     digest: 7fe1efe696a2993abf27db812f823e73c24268024c664114f393ca9bb89ad75b
@@ -39,7 +39,7 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5799419-04:00"
+    created: "2023-07-28T14:56:05.5542768-04:00"
     description: A Helm chart for Kubernetes
     digest: e68ac1f63b157fbd370fb493969153d42aca2cdd4a5af451df26100f71eb786b
     name: sds-nginx-svc-example
@@ -54,7 +54,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5839473-04:00"
+    created: "2023-07-28T14:56:05.5587083-04:00"
     description: A Helm chart for Tracking Service
     digest: 0cf3de07e403ee25e23a95fabb1c3de48948c31ba6bd467a03c91fd47e2ff5ab
     name: sds-tracking-service
@@ -68,7 +68,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5838241-04:00"
+    created: "2023-07-28T14:56:05.5581505-04:00"
     description: A Helm chart for Tracking Service
     digest: 0391f73290c4379e10fc4bc1ddbdb1eea9fdeb8576471fe64d1d046bc36e6d02
     name: sds-tracking-service
@@ -82,7 +82,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5833171-04:00"
+    created: "2023-07-28T14:56:05.5581505-04:00"
     description: A Helm chart for Tracking Service
     digest: 65a4b01aba99bafd0e945db4639a85ab23157e306dbeb64b169d12543cb72dd8
     name: sds-tracking-service
@@ -96,7 +96,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5833171-04:00"
+    created: "2023-07-28T14:56:05.5576-04:00"
     description: A Helm chart for Tracking Service
     digest: f4d1f3c9cc7da1b8d34cf9537598b66daba23a99f3b580915e367f42894d434e
     name: sds-tracking-service
@@ -110,7 +110,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5831831-04:00"
+    created: "2023-07-28T14:56:05.5570728-04:00"
     description: A Helm chart for Tracking Service
     digest: 637f35adff82ee19bcd69cf1daad27628dcde800f8f170c5f96beaa9dcaac8d5
     name: sds-tracking-service
@@ -124,7 +124,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.586395-04:00"
+    created: "2023-07-28T14:56:05.5632108-04:00"
     description: A Helm chart for Tracking Service
     digest: 60f3a76f5b8bdebbe84508ef1e1ad080de063e6bfb84e4ede3f631179231a89b
     name: sds-tracking-service
@@ -138,7 +138,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5857672-04:00"
+    created: "2023-07-28T14:56:05.5626503-04:00"
     description: A Helm chart for Tracking Service
     digest: 477a99a60553d2943e5c77904e5a0bffd34861a2b3dcfd6e2078716403e024f5
     name: sds-tracking-service
@@ -152,7 +152,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5857672-04:00"
+    created: "2023-07-28T14:56:05.562085-04:00"
     description: A Helm chart for Tracking Service
     digest: 28dabe9ba3a21873540d2abf8d9ec4894dd52cd9751e94cef4fb24125d13493a
     name: sds-tracking-service
@@ -166,7 +166,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5851689-04:00"
+    created: "2023-07-28T14:56:05.5615249-04:00"
     description: A Helm chart for Tracking Service
     digest: 6def0363fcbcd66ffab9871beaf28cc45fe965a09cc0b23272a91ab024252381
     name: sds-tracking-service
@@ -180,7 +180,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5851689-04:00"
+    created: "2023-07-28T14:56:05.5609748-04:00"
     description: A Helm chart for Tracking Service
     digest: f5145b27ab42e4300e06852bb0f0b08a0d42ebc7462bbb80506c237f5423c15b
     name: sds-tracking-service
@@ -194,7 +194,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5845365-04:00"
+    created: "2023-07-28T14:56:05.5604167-04:00"
     description: A Helm chart for Tracking Service
     digest: e6b8315484b3c0abcfd91e7273a30fe60da502c2e96c1dfe97b6ceb968272a9b
     name: sds-tracking-service
@@ -208,7 +208,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5845365-04:00"
+    created: "2023-07-28T14:56:05.5598886-04:00"
     description: A Helm chart for Tracking Service
     digest: dfa5db3be30b6239304c9f06f5de4c3b8bf92b6011c933e2b1ab71c6883b11ef
     name: sds-tracking-service
@@ -222,7 +222,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5839473-04:00"
+    created: "2023-07-28T14:56:05.5592686-04:00"
     description: A Helm chart for Tracking Service
     digest: 71a5de5667150703a776c5d92b2c617a4e17d0dd12fe9d28b3d9934a5e27911c
     name: sds-tracking-service
@@ -236,7 +236,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5826755-04:00"
+    created: "2023-07-28T14:56:05.5565672-04:00"
     description: A Helm chart for Tracking Service
     digest: e99ed9e1f95ab8dd4d26b5834fbf5e1a538181359d9c943b732db639d81e1198
     name: sds-tracking-service
@@ -250,7 +250,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.5818888-04:00"
+    created: "2023-07-28T14:56:05.5553857-04:00"
     description: A Helm chart for sds-tracking-service
     digest: 01d2603e58531582fa43627b192ca2ff3bfc322091b2c17746ffb0ff1996e30f
     name: sds-tracking-service
@@ -265,7 +265,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service New
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-27T16:44:41.586395-04:00"
+    created: "2023-07-28T14:56:05.5637682-04:00"
     description: A Helm chart for sds-tracking-service-new
     digest: c92118a7e1e223e972b2d9bbc821f0283381be786970d9695060cc67a7cbfb75
     name: sds-tracking-service-new
@@ -273,4 +273,4 @@ entries:
     urls:
     - https://isc-yshi.github.io/sds-charts/sds-tracking-service-new-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-27T16:44:41.576847-04:00"
+generated: "2023-07-28T14:56:05.5504269-04:00"
