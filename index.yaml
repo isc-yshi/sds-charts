@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: SDS NGINX Ingress Controller
     apiVersion: v2
     appVersion: 3.2.0
-    created: "2023-07-31T16:28:08.8956959-04:00"
+    created: "2023-07-31T16:33:22.3049591-04:00"
     description: NGINX Ingress Controller
     digest: 327ab5ca9cd36bbcf65a4a3c6779d14ed6aa5eb10499774c3036f98ab3a51318
     name: nginx-ingress
@@ -22,12 +22,12 @@ entries:
       intersystems/sds-title: Tracking and Trace Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-31T16:28:08.8963149-04:00"
+    created: "2023-07-31T16:33:22.3050361-04:00"
     description: A Helm chart for sds-tracking-service
-    digest: 436fe1c3b8dffff08d968b5a10be6d93c444a323b37044c2cd58f123f0712130
+    digest: b233d31c225cc995891efbad172a948d9677947085bf14c2c668d87a11c8070c
     name: sds-tracking-service
     type: application
     urls:
     - https://isc-yshi.github.io/sds-charts/sds-tracking-service-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-31T16:28:08.8945368-04:00"
+generated: "2023-07-31T16:33:22.3022323-04:00"
