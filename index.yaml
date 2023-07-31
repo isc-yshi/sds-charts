@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: SDS NGINX Ingress Controller
     apiVersion: v2
     appVersion: 3.2.0
-    created: "2023-07-28T16:33:37.4732751-04:00"
+    created: "2023-07-31T16:02:35.8180471-04:00"
     description: NGINX Ingress Controller
     digest: 327ab5ca9cd36bbcf65a4a3c6779d14ed6aa5eb10499774c3036f98ab3a51318
     name: nginx-ingress
@@ -15,6 +15,21 @@ entries:
     urls:
     - https://isc-yshi.github.io/sds-charts/nginx-ingress-0.18.0.tgz
     version: 0.18.0
+  sds-tracking-service:
+  - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: Tracking and Trace Service
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-07-31T16:02:35.8186476-04:00"
+    description: A Helm chart for sds-tracking-service
+    digest: 90be5762967d7438bf89f0ada603a7de2b00c896b9b589f81f6ca93481cb4103
+    name: sds-tracking-service
+    type: application
+    urls:
+    - https://isc-yshi.github.io/sds-charts/sds-tracking-service-0.1.0.tgz
+    version: 0.1.0
   sds-tracking-service-new:
   - annotations:
       intersystems/sds-category: custom
@@ -22,7 +37,7 @@ entries:
       intersystems/sds-title: SDS Tracking Service New
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-28T16:33:37.4743407-04:00"
+    created: "2023-07-31T16:02:35.819775-04:00"
     description: A Helm chart for sds-tracking-service-new
     digest: c92118a7e1e223e972b2d9bbc821f0283381be786970d9695060cc67a7cbfb75
     name: sds-tracking-service-new
@@ -30,4 +45,4 @@ entries:
     urls:
     - https://isc-yshi.github.io/sds-charts/sds-tracking-service-new-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-28T16:33:37.4714983-04:00"
+generated: "2023-07-31T16:02:35.8122007-04:00"
