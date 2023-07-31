@@ -3,12 +3,3 @@ secrets:
 - field: requiredSecrets.p44ImagePullSecret
   type: image-pull-secret
   reason: These are the credentials to authenticate with containers.intersystems.com
-externalServicesDeclarations:
-- name: iris-sc-database
-  type: database
-  hostnameChartField: irisSC.hostname
-  hostPortChartField: irisSC.port
-  enabled: false
-  enabledChartField: irisSC.enabled
-  label: IRIS-SC
-  description: Port through which IRIS for Supply Chain is accessed
